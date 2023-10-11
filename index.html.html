@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/Bike.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+                      <pre>                                       <img src="./bike web_files/121bike.PNG" alt="bike shop pic" height="300px"></pre>
+                           <br>
+<pre>                                               <h1><b>                                       Welcome </b> </h1></pre> 
+    <h1>Mechanic : Rahul Prajapat </h1>      
+    <br>
+    <pre>  <img src="./bike web_files/rahul.jpg" alt="pic" height="400px">   <h2>Go on Map For find the Location  
+tap this button                      <a href="https://maps.app.goo.gl/sHb9WbAx22iEMzdZA">
+  Location</a></h2></pre>
+
+    
+    <br>
+    <h2> <b>Contact no. : 9772775807 </b></h2>
+   <h3> See more photos of our workshop</h3>
+   <br>
+   <img src="./bike web_files/image2.jpg" width="500px">
+   <img src="./bike web_files/image1.jpg" width="500px">
+   <img src="./bike web_files/image3.jpg" width="500px">
+   <img src="./bike web_files/image4.jpg" width="500px">
+
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
